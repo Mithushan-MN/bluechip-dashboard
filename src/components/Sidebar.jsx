@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
-import {FaRegChartBar,FaThList, FaShoppingBag, FaTh, FaUserAlt, FaBars,} from "react-icons/fa"
-import { NavLink } from 'react-router-dom'
+import {FaRegChartBar,FaThList, FaShoppingBag, FaTh, FaUserAlt, FaBars,FaArrowAltCircleLeft,} from "react-icons/fa"
+import { NavLink, Link} from 'react-router-dom'
+
 
 
 const Sidebar = ({children}) => {
@@ -33,6 +34,7 @@ const Sidebar = ({children}) => {
             name:"Order",
             icon:<FaThList/>
         },
+      
        
         
     ]
@@ -55,11 +57,19 @@ const Sidebar = ({children}) => {
                 </NavLink>
             ))
         }
+
+        <div className='logoutbtn'>
+            <Link to='/'>
+            <FaArrowAltCircleLeft className='lgtbtn'/> 
+            </Link>
+        </div>
+
       </div>
 
       <div className='contents'>
       <main>{children}</main>
       </div>
+    
       
     </div> 
   )

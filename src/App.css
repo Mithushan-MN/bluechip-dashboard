@@ -88,3 +88,17 @@ background: linear-gradient(180deg,#dad0ee 50%,#bfb0e8 100%);
   box-shadow: 5px 10px 18px #888888;
   /* padding-left: 150px; */
 }
+
+.logoutbtn{
+  padding-top: 280px;
+  padding-right: 80px;
+
+}
+.lgtbtn{
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+.lgtbtn:hover{
+  color: blueviolet;
+}

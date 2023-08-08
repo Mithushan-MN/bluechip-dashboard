@@ -29,7 +29,7 @@ const Dashboard = () => {
       
       <Rightside/>
       </div>
-      <button onClick={handleClick}>SignOut</button>
+
       <Outlet/>
       </Sidebar>
      

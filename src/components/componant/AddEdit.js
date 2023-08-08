@@ -40,7 +40,7 @@ const AddEdit = () => {
                     toast.success("Contact added Successfully")
                 }
             });
-            setTimeout(()=> navigate.push("/home/Customers"),500);
+            setTimeout(()=> navigate.push("/Customers"),500);
         }
     };
   

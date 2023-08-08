@@ -14,7 +14,7 @@ const Header = () => {
                 onClick={()=> setActiveTab("Home")}
                 >Home</p>
             </Link>
-            <Link to="/home/Customers/addedit">
+            <Link to="/Customers/addedit">
                 <p className={`${activeTab === "AddContact" ? "active" : ""}`}
                 onClick={()=> setActiveTab("AddContact")}
                 >AddContact</p>
